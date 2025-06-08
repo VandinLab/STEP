@@ -4,7 +4,7 @@ Giorgio Venturin, Ilie Sarpe, Fabio Vandin, "Efficient Approximate Temporal Tria
 
 ---
 
-Here are the instructions for running *STEP* algorithm: **S**treaming-based temporal **T**riangle counts **E**stimation with **P**redictions. The code is deployed in *C++ 17** under *gcc 9.4.0* with optimization flags enabled.    
+Here are the instructions for running *STEP* algorithm: **S**treaming-based temporal **T**riangle counts **E**stimation with **P**redictions. The code is deployed in *C++ 17* under *gcc 9.4.0* with optimization flags enabled.    
 
 - **Datasets** used in our experiments: <br />
   1. Stackoverflow (SO): https://snap.stanford.edu/data/sx-stackoverflow.html <br />
