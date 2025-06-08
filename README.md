@@ -45,7 +45,7 @@ Here are the instructions for running *STEP* algorithm: **S**treaming-based temp
            - Note: saving and loading edge maps is useful to avoid the computation of the exact solution from scratch. <br />
         - `<edge_map_file>` is the output file containing the edge map <br />
 
-  - **Run the STEP algorithm**: <br />
+- **Run the STEP algorithm**: <br />
     - _Offline_ mode: <br />
       Execute the following command to run the STEP algorithm in offline mode: <br />
         `./STEP <dataset_path> <delta> exact <output_file>` runs the exact algorithm <br />
@@ -64,14 +64,14 @@ Here are the instructions for running *STEP* algorithm: **S**treaming-based temp
                        <naive alg. sampling prob.> [optional]` <br />
       The output file will contain, in order: the exact counts (first line), the STEP counts (#trials lines) and the Naive Sampling counts (#trials line). <br />
     
-  - **Baselines**: <br />
+- **Baselines**: <br />
     - Degeneracy implementation: https://github.com/nojanp/temporal-triangle-counting
     - EWS implementation: https://github.com/jingjing-cs/Temporal-Motif-Counting
     - Fast-Tri implementation: https://github.com/steven-ccq/FAST-temporal-motif
     - MoTTo implementation: https://github.com/bone38ljtnn/motif-counting
     - Note: EWS code was modified in order to collect the time required to perform the sampling (lines 145-158 of ews.cpp file)
   
-  - **Memory measurements**: <br />
+- **Memory measurements**: <br />
     - All memory measurements were performed using the script in `memory_measurements.sh` **contextually** to the execution of the STEP algorithm or baselines. <br />
     - The script requires a process ID in input and outputs measurements of memory consumption in MB. <br />
     - Note: we suggest to run this script within a Linux environment. <br />
