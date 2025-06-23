@@ -2,6 +2,8 @@
 
 Giorgio Venturin, Ilie Sarpe, Fabio Vandin, "Efficient Approximate Temporal Triangle Counting in Streaming with Predictions", ECML-PKDD 2025.
 
+The Arxiv Extended Version of the paper can be found <a href="https://www.arxiv.org/pdf/2506.13173">here</a>.
+
 ---
 
 Here are the instructions for running *STEP* algorithm: **S**treaming-based temporal **T**riangle counts **E**stimation with **P**redictions. The code is deployed in *C++ 17* under *gcc 9.4.0* with optimization flags enabled.    
